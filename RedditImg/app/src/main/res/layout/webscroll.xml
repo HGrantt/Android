@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/topwebscroll">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/webScroller"
+        android:layout_height="match_parent"
+        android:background="@color/almblack"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Could not load image"
+            android:textColor="#FFFFFF"
+            android:id="@+id/textView2"
+            android:layout_marginTop="10dp" />
+
+        <WebView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView"
+            android:layout_gravity="center"
+            android:color="@color/almblack" />
+    </LinearLayout>
+</RelativeLayout>
